@@ -1,0 +1,1185 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+@font-face {
+  src: url(../fonts/NotoSans-Bold.ttf);
+  font-family: NotoSansBold;
+}
+
+@font-face {
+  src: url(../fonts/NotoSans-Medium.ttf);
+  font-family: NotoSansMedium;
+}
+
+@font-face {
+  src: url(../fonts/NotoSans-Regular.ttf);
+  font-family: NotoSansRegular;
+}
+
+.infrastructure-wrapper::-webkit-scrollbar {
+  height: 8px;
+  position: relative;
+}
+
+.infrastructure-wrapper::-webkit-scrollbar-track {
+  background-color: #EAE7E4;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+}
+
+.infrastructure-wrapper::-webkit-scrollbar-thumb {
+  background: #EDAF52;
+  height: 10px;
+  position: absolute;
+}
+
+.infrastructure-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #F1C37E;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav {
+  width: 100%;
+  height: 110px;
+  background-color: #231F20;
+}
+
+.nav .nav-wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .nav-wrapper .nav-left-side {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .nav-wrapper .nav-left-side img {
+  margin-right: 15px;
+}
+
+.nav .nav-wrapper .nav-left-side input {
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+  font-family: NotoSansMedium;
+}
+
+.nav .nav-wrapper .nav-left-side input::-webkit-input-placeholder {
+  color: white;
+}
+
+.nav .nav-wrapper .nav-left-side input:-ms-input-placeholder {
+  color: white;
+}
+
+.nav .nav-wrapper .nav-left-side input::-ms-input-placeholder {
+  color: white;
+}
+
+.nav .nav-wrapper .nav-left-side input::placeholder {
+  color: white;
+}
+
+.nav .nav-wrapper .logo {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .nav-wrapper .nav-right-side {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .nav-wrapper .nav-right-side a {
+  padding: 0 20px;
+}
+
+.nav .nav-wrapper .nav-right-side .lang-switcher {
+  padding: 0;
+  color: white;
+  font-family: NotoSansMedium;
+  font-size: 16px;
+  border-bottom: 5px solid orange;
+}
+
+.about-project {
+  width: auto;
+  height: auto;
+  padding: 10px 0;
+  border-bottom: 2px solid #F6F4F3;
+}
+
+.landing {
+  width: 100%;
+}
+
+.landing .landing-wrapper {
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: calc(100vh - 110px);
+}
+
+.landing .project-details-left-side {
+  width: 30%;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.landing .project-details-left-side .all-project {
+  color: #84756D;
+  font-family: NotoSansBold;
+  font-size: 16px;
+  margin-bottom: 2rem;
+}
+
+.landing .project-details-left-side h1 {
+  font-size: 34px;
+  font-family: NotoSansBold;
+  color: #2D2C2B;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+.landing .project-details-left-side h1 span {
+  font-size: 80px;
+  color: #EDAF52;
+  font-weight: bold;
+}
+
+.landing .project-details-left-side .watch-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1em 0;
+  color: #2D2C2B;
+  font-family: NotoSansBold;
+}
+
+.landing .project-details-left-side .responsive-watch-video {
+  display: none;
+}
+
+.landing .project-details-left-side .second-navigation {
+  margin: 3em 0;
+}
+
+.landing .project-details-left-side .second-navigation ul li a {
+  color: #2D2C2B;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: NotoSansRegular;
+}
+
+.landing .project-details-left-side .second-navigation .active {
+  color: #EDAF52;
+}
+
+.landing .project-details-left-side .project-features {
+  width: 100%;
+}
+
+.landing .project-details-left-side .project-features .project-features-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+
+.landing .project-details-left-side .project-features .project-features-header h2 {
+  color: #EDAF52;
+  font-family: NotoSansBold;
+}
+
+.landing .project-details-left-side .project-features .project-features-header select {
+  border: 1px solid #A5978E;
+  padding: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  background: url("../img/icon/square.png") no-repeat 15% !important;
+  padding-left: 3rem;
+  font-family: NotoSansMedium;
+  font-size: 18px;
+}
+
+.landing .project-details-left-side .project-features .project-features-body {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 30px 60px;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[4];
+      grid-template-rows: repeat(4, 1fr);
+      grid-template-areas: "project rooms" "floors price-range-per-m2" "price-range-per-gel space-range-m2" "search search";
+}
+
+.landing .project-details-left-side .project-features .project-features-body .project, .landing .project-details-left-side .project-features .project-features-body .rooms, .landing .project-details-left-side .project-features .project-features-body .floors {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: project;
+  width: 100%;
+}
+
+.landing .project-details-left-side .project-features .project-features-body .project h2, .landing .project-details-left-side .project-features .project-features-body .rooms h2, .landing .project-details-left-side .project-features .project-features-body .floors h2 {
+  font-size: 21px;
+  font-family: NotoSansBold;
+  color: #2D2C2B;
+  padding-bottom: 10px;
+}
+
+.landing .project-details-left-side .project-features .project-features-body .project select, .landing .project-details-left-side .project-features .project-features-body .rooms select, .landing .project-details-left-side .project-features .project-features-body .floors select {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 10px 0;
+  font-family: NotoSansMedium;
+  border-bottom: 1px solid #E4E0DD;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("../img/icon/dropdown-arrow.png");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 50%;
+}
+
+.landing .project-details-left-side .project-features .project-features-body .rooms {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: rooms;
+}
+
+.landing .project-details-left-side .project-features .project-features-body .floors {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: floors;
+}
+
+.landing .project-details-left-side .project-features .project-features-body .price-range-per-m2, .landing .project-details-left-side .project-features .project-features-body .price-range-per-gel, .landing .project-details-left-side .project-features .project-features-body .space-range-m2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: price-range-per-m2;
+}
+
+.landing .project-details-left-side .project-features .project-features-body .price-range-per-m2 h2, .landing .project-details-left-side .project-features .project-features-body .price-range-per-gel h2, .landing .project-details-left-side .project-features .project-features-body .space-range-m2 h2 {
+  font-size: 21px;
+  font-family: NotoSansBold;
+  color: #2D2C2B;
+  padding-bottom: 10px;
+}
+
+.landing .project-details-left-side .project-features .project-features-body .price-range-per-m2 .slider, .landing .project-details-left-side .project-features .project-features-body .price-range-per-gel .slider, .landing .project-details-left-side .project-features .project-features-body .space-range-m2 .slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 5px;
+  background: #84756D;
+  border-radius: 20px;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  -webkit-transition: opacity .2s;
+  transition: opacity .2s;
+}
+
+.landing .project-details-left-side .project-features .project-features-body .price-range-per-m2 .slider:hover, .landing .project-details-left-side .project-features .project-features-body .price-range-per-gel .slider:hover, .landing .project-details-left-side .project-features .project-features-body .space-range-m2 .slider:hover {
+  opacity: 1;
+}
+
+.landing .project-details-left-side .project-features .project-features-body .price-range-per-m2 .slider::-webkit-slider-thumb, .landing .project-details-left-side .project-features .project-features-body .price-range-per-gel .slider::-webkit-slider-thumb, .landing .project-details-left-side .project-features .project-features-body .space-range-m2 .slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #A5978E;
+  cursor: pointer;
+}
+
+.landing .project-details-left-side .project-features .project-features-body .price-range-per-m2 .slider::-moz-range-thumb, .landing .project-details-left-side .project-features .project-features-body .price-range-per-gel .slider::-moz-range-thumb, .landing .project-details-left-side .project-features .project-features-body .space-range-m2 .slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #A5978E;
+  cursor: pointer;
+}
+
+.landing .project-details-left-side .project-features .project-features-body .price-range-per-m2 .values, .landing .project-details-left-side .project-features .project-features-body .price-range-per-gel .values, .landing .project-details-left-side .project-features .project-features-body .space-range-m2 .values {
+  padding-top: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: NotoSansRegular;
+  font-size: 14px;
+}
+
+.landing .project-details-left-side .project-features .project-features-body .price-range-per-gel {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: price-range-per-gel;
+}
+
+.landing .project-details-left-side .project-features .project-features-body .space-range-m2 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: space-range-m2;
+}
+
+.landing .project-details-left-side .project-features .project-features-body .search-submit {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: search;
+  width: 100%;
+  height: 50px;
+  font-family: NotoSansBold;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #B7ABA4;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+}
+
+.landing .project-details-left-side .project-features .project-features-body .search-submit:hover {
+  opacity: 0.8;
+}
+
+.landing .project-details-left-side .share-button a {
+  color: #84756D;
+  font-size: 16px;
+  font-family: NotoSansRegular;
+}
+
+.landing .project-details-right-side {
+  width: 70%;
+  height: 90%;
+  border-left: 1px solid #E6E3E2;
+  padding: 0px 20px;
+}
+
+.landing .project-details-right-side .project-details-right-side-wrapper {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url(../img/building-background.png) no-repeat 50% 0%;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.landing .project-details-right-side .benefits {
+  margin: 1em 0;
+  padding: 20px 0;
+  border-top: 1px solid #F6F4F3;
+  border-bottom: 1px solid #ebe8e6;
+}
+
+.landing .project-details-right-side .benefits .benefits-text {
+  color: #2D2C2B;
+  font-family: NotoSansBold;
+  font-size: 21px;
+}
+
+.landing .project-details-right-side .benefits .benefits-grid {
+  padding: 1.5em 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px 0;
+      grid-template-areas: "busline green-area public-school parking" "hypermarket metro-station eco-friendly kids-playground";
+}
+
+.landing .project-details-right-side .benefits .benefits-grid .busline, .landing .project-details-right-side .benefits .benefits-grid .green-area, .landing .project-details-right-side .benefits .benefits-grid .public-school, .landing .project-details-right-side .benefits .benefits-grid .parking, .landing .project-details-right-side .benefits .benefits-grid .hypermarket, .landing .project-details-right-side .benefits .benefits-grid .metro-station, .landing .project-details-right-side .benefits .benefits-grid .eco-friendly, .landing .project-details-right-side .benefits .benefits-grid .kids-playground {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: NotoSansRegular;
+  color: #84756D;
+  font-size: 16px;
+}
+
+.landing .project-details-right-side .benefits .benefits-grid .busline span, .landing .project-details-right-side .benefits .benefits-grid .green-area span, .landing .project-details-right-side .benefits .benefits-grid .public-school span, .landing .project-details-right-side .benefits .benefits-grid .parking span, .landing .project-details-right-side .benefits .benefits-grid .hypermarket span, .landing .project-details-right-side .benefits .benefits-grid .metro-station span, .landing .project-details-right-side .benefits .benefits-grid .eco-friendly span, .landing .project-details-right-side .benefits .benefits-grid .kids-playground span {
+  font-family: NotoSansBold;
+}
+
+.landing .project-details-right-side .infrastructure, .landing .project-details-right-side .FAQ {
+  width: 100%;
+  margin: 1em 0;
+  padding: 20px 0;
+  border-top: 1px solid #F6F4F3;
+  border-bottom: 1px solid #ebe8e6;
+}
+
+.landing .project-details-right-side .infrastructure .infrastructure-text, .landing .project-details-right-side .FAQ .infrastructure-text {
+  font-family: NotoSansBold;
+  font-size: 21px;
+  color: #2D2C2B;
+  padding: 1.3rem 0;
+}
+
+.landing .project-details-right-side .infrastructure .infrastructure-wrapper, .landing .project-details-right-side .FAQ .infrastructure-wrapper {
+  overflow-x: scroll;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.landing .project-details-right-side .infrastructure .infrastructure-wrapper img, .landing .project-details-right-side .FAQ .infrastructure-wrapper img {
+  padding: 0 20px 30px 0;
+}
+
+.landing .project-details-right-side .FAQ {
+  border: none;
+}
+
+.landing .project-details-right-side .FAQ .FAQ-text {
+  font-size: 34px;
+  font-family: NotoSansBold;
+  color: #2D2C2B;
+}
+
+.landing .project-details-right-side .FAQ .question {
+  width: 100%;
+  border-bottom: 1px solid #ebe8e6;
+  padding: 1.5rem 0;
+  cursor: pointer;
+}
+
+.landing .project-details-right-side .FAQ .question .question-header, .landing .project-details-right-side .FAQ .question .answer {
+  font-size: 16px;
+  color: #84756D;
+  font-family: NotoSansRegular;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landing .project-details-right-side .FAQ .question .answer {
+  max-width: 80%;
+  padding: 1rem 0;
+  color: #2D2C2B;
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+  opacity: 0;
+  display: none;
+}
+
+.landing .project-details-right-side .project-gallery {
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+.landing .project-details-right-side .project-gallery .project-gallery-text {
+  font-size: 34px;
+  color: #2D2C2B;
+  font-family: NotoSansBold;
+  padding: 1rem 0;
+}
+
+.landing .project-details-right-side .project-gallery .owl-nav {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.landing .project-details-right-side .project-gallery .owl-dots {
+  border: 1px solid orange;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin: 1.5rem 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.landing .project-details-right-side .project-gallery .owl-dots .owl-dot span {
+  background: #A5978E;
+  border-radius: 0;
+  opacity: 0.5;
+  padding: 5px;
+  margin: 5px 10px;
+}
+
+.landing .project-details-right-side .project-gallery .owl-dots .owl-dot, .landing .project-details-right-side .project-gallery .owl-dots .owl-dot.active {
+  outline: none;
+  border: none;
+}
+
+.landing .project-details-right-side .project-gallery .owl-dots .owl-dot.active span {
+  background: #EDAF52;
+  opacity: 1;
+  outline: none;
+  border: none;
+}
+
+.landing .project-details-right-side .project-gallery .owl-dots .owl-dot.active span:active {
+  outline: none;
+  border: none;
+}
+
+.landing .project-details-right-side .project-gallery .owl-prev, .landing .project-details-right-side .project-gallery .owl-next {
+  margin: 0px 2rem;
+}
+
+.landing .project-details-right-side .project-gallery .owl-prev:hover, .landing .project-details-right-side .project-gallery .owl-next:hover {
+  background: none;
+}
+
+.landing .project-details-right-side .project-gallery .owl-prev .am-prev, .landing .project-details-right-side .project-gallery .owl-prev .am-next, .landing .project-details-right-side .project-gallery .owl-next .am-prev, .landing .project-details-right-side .project-gallery .owl-next .am-next {
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.landing .project-details-right-side .next-project {
+  width: 100%;
+  height: 15rem;
+  margin: 3rem 0;
+}
+
+.landing .project-details-right-side .next-project .next-project-wrapper {
+  width: 100%;
+  height: 100%;
+  background: url(../img/next-project/gudauri-bg.png) no-repeat;
+  position: relative;
+  background-size: cover;
+  border: 10px solid #A5978E;
+}
+
+.landing .project-details-right-side .next-project .next-project-wrapper .next-project-left-panel .next-project-text-background {
+  width: 80px;
+  background: #A5978E;
+  height: 15rem;
+}
+
+.landing .project-details-right-side .next-project .next-project-wrapper .next-project-left-panel .next-project-text {
+  color: white;
+  font-family: NotoSansRegular;
+  font-size: 21px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: -40px;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transform: translateY(-50%) rotate(-90deg);
+          transform: translateY(-50%) rotate(-90deg);
+}
+
+.landing .project-details-right-side .next-project .next-project-wrapper .next-project-inner-content {
+  width: calc(100% - 80px);
+  height: 15rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.landing .project-details-right-side .next-project .next-project-wrapper .next-project-inner-content .next-project-inner-content-wrapper {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landing .project-details-right-side .next-project .next-project-wrapper .next-project-inner-content .next-project-inner-content-wrapper h2 {
+  color: #EDAF52;
+  font-family: NotoSansBold;
+  font-size: 84px;
+  padding: 0px 50px;
+}
+
+.landing .project-details-right-side .next-project .next-project-wrapper .next-project-inner-content .next-project-inner-content-wrapper a {
+  color: #2D2C2B;
+  font-family: NotoSansBold;
+  font-size: 18px;
+  padding: 0px 50px;
+}
+
+.landing .project-details-right-side .next-project .next-project-wrapper .next-project-inner-content .next-project-inner-content-wrapper a span {
+  color: #EDAF52;
+}
+
+.landing .project-details-right-side .contact {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #F6F4F3;
+}
+
+.landing .project-details-right-side .contact .contact-text {
+  color: #2D2C2B;
+  font-size: 34px;
+  font-family: NotoSansBold;
+  padding: 1.5rem 0;
+}
+
+.landing .project-details-right-side .contact .contact-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem 0 2rem 0;
+}
+
+.landing .project-details-right-side .contact .contact-container .resp-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landing .project-details-right-side .contact .contact-container .location, .landing .project-details-right-side .contact .contact-container .phone {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.landing .project-details-right-side .contact .contact-container .location .location-info, .landing .project-details-right-side .contact .contact-container .phone .location-info, .landing .project-details-right-side .contact .contact-container .phone .phone-info {
+  padding: 0px 15px;
+}
+
+.landing .project-details-right-side .contact .contact-container .location .location-info h2, .landing .project-details-right-side .contact .contact-container .phone .location-info h2, .landing .project-details-right-side .contact .contact-container .phone .phone-info h2 {
+  color: #2D2C2B;
+  font-family: NotoSansBold;
+  font-size: 16px;
+}
+
+.landing .project-details-right-side .contact .contact-container .location .location-info p, .landing .project-details-right-side .contact .contact-container .phone .location-info p, .landing .project-details-right-side .contact .contact-container .phone .phone-info p {
+  color: #84756D;
+  font-family: NotoSansRegular;
+  font-size: 16px;
+}
+
+.landing .project-details-right-side .contact .contact-container .social-networks {
+  width: 100%;
+}
+
+.landing .project-details-right-side .contact .contact-container .social-networks h2 {
+  font-family: NotoSansBold;
+  color: #2D2C2B;
+  font-size: 16px;
+}
+
+.landing .project-details-right-side .contact .contact-container .social-networks ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.landing .project-details-right-side .contact .contact-container .social-networks ul li a {
+  font-family: NotoSansRegular;
+  color: #84756D;
+  font-size: 16px;
+  padding-right: 5px;
+  text-decoration: underline;
+}
+
+.landing .project-details-right-side .contact .contact-container .newsletter {
+  width: 35%;
+}
+
+.landing .project-details-right-side .contact .contact-container .newsletter .newsletter-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 16px 24px;
+  border: 1px solid #EDAF52;
+}
+
+.landing .project-details-right-side .contact .contact-container .newsletter .newsletter-wrapper h2 {
+  font-family: NotoSansBold;
+  font-size: 13px;
+  color: #2D2C2B;
+}
+
+.landing .project-details-right-side .contact .contact-container .newsletter .newsletter-wrapper a {
+  font-family: NotoSansBold;
+  font-size: 13px;
+  color: #EDAF52;
+}
+
+.landing .project-details-right-side .copyright {
+  padding: 1rem 0;
+  width: 100%;
+  height: 30px;
+}
+
+.landing .project-details-right-side .copyright .copyright-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landing .project-details-right-side .copyright .copyright-wrapper .policies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landing .project-details-right-side .copyright .copyright-wrapper .policies p {
+  font-family: NotoSansRegular;
+  font-size: 16px;
+  color: #25310E;
+  padding-right: 10px;
+}
+
+.landing .project-details-right-side .copyright .copyright-wrapper .policies ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.landing .project-details-right-side .copyright .copyright-wrapper .policies ul li a {
+  font-family: NotoSansRegular;
+  font-size: 16px;
+  padding: 0px 10px;
+  text-decoration: underline;
+  color: #25310E;
+}
+
+.landing .project-details-right-side .compass {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.landing .project-details-right-side .bottom-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 90px;
+  background-color: rgba(35, 31, 32, 0.7);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.landing .project-details-right-side .bottom-panel .bottom-panel-info {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landing .project-details-right-side .project-status, .landing .project-details-right-side .total-available-apartments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: 0 10px;
+  border-right: 1px solid #746D68;
+}
+
+.landing .project-details-right-side .project-status .project-status-body, .landing .project-details-right-side .total-available-apartments .project-status-body, .landing .project-details-right-side .total-available-apartments .total-available-apartments-body {
+  padding: 0 10px;
+}
+
+.landing .project-details-right-side .project-status .project-status-body h2, .landing .project-details-right-side .total-available-apartments .project-status-body h2, .landing .project-details-right-side .total-available-apartments .total-available-apartments-body h2 {
+  color: white;
+  font-family: NotoSansBold;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.landing .project-details-right-side .project-status .project-status-body p, .landing .project-details-right-side .total-available-apartments .project-status-body p, .landing .project-details-right-side .total-available-apartments .total-available-apartments-body p {
+  color: white;
+  font-family: NotoSansRegular;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.landing .project-details-right-side .total-available-apartments {
+  width: 100%;
+}
+
+.landing .project-details-right-side .book-call-button {
+  background-color: #FFFFFF;
+  width: 100%;
+  padding: 16px;
+  margin: 0 3rem;
+}
+
+.landing .project-details-right-side .book-call-button a {
+  color: #84756D;
+  font-family: NotoSansBold;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.landing .project-details-right-side .go-back-button {
+  width: 50%;
+  height: 100%;
+  background: url(../img/background-pattern.png);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landing .project-details-right-side .go-back-button a {
+  font-family: NotoSansBold;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1680px) {
+  .landing .project-details-left-side .second-navigation ul li a {
+    font-size: 18px;
+  }
+  .landing .project-details-right-side .book-call-button {
+    width: 60%;
+    margin: 0 1rem;
+  }
+  .landing .project-details-right-side .total-available-apartments .total-available-apartments-body h2 {
+    white-space: nowrap;
+    text-align: center;
+  }
+  .landing .project-details-left-side {
+    width: 40%;
+  }
+  .landing .project-details-left-side h1 {
+    max-width: 50%;
+  }
+  .landing .project-details-right-side .benefits .benefits-grid {
+    grid-gap: 5px 20px;
+    white-space: nowrap;
+  }
+  .landing .project-details-right-side .contact .contact-container .resp-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .landing .project-details-right-side .contact .contact-container .location, .landing .project-details-right-side .contact .contact-container .phone, .landing .project-details-right-side .contact .contact-container .phone {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 10px 0px;
+  }
+  .landing .project-details-right-side .book-call-button {
+    margin: 0 0.5rem;
+  }
+  .landing .project-details-right-side .contact .contact-container .social-networks {
+    padding: 10px 0;
+  }
+  .landing .project-details-right-side {
+    padding: 0px 20px;
+  }
+  .landing .project-details-right-side {
+    width: 60%;
+  }
+  .landing .project-details-right-side .project-status, .landing .project-details-right-side .total-available-apartments,
+  .landing .project-details-right-side .total-available-apartments, .landing .project-details-right-side .total-available-apartments {
+    margin: 0;
+  }
+  .landing .project-details-right-side .total-available-apartments .total-available-apartments-body p, .landing .project-details-right-side .project-status .project-status-body p, .landing .project-details-right-side .total-available-apartments .project-status-body p, .landing .project-details-right-side .total-available-apartments .total-available-apartments-body p, .landing .project-details-right-side .project-status .project-status-body h2, .landing .project-details-right-side .total-available-apartments .project-status-body h2, .landing .project-details-right-side .total-available-apartments .total-available-apartments-body h2 {
+    text-align: center;
+  }
+  .landing .project-details-left-side .project-features .project-features-body {
+    grid-gap: 20px 30px;
+  }
+  .landing .project-details-right-side .contact .contact-container .newsletter .newsletter-wrapper {
+    padding: 16px 24px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .landing .project-details-left-side .all-project {
+    font-size: 13px;
+  }
+  .landing .project-details-left-side .watch-video {
+    display: none;
+  }
+  .landing .project-details-left-side h1 {
+    font-size: 21px;
+    margin-top: 1em;
+    line-height: 30px;
+  }
+  .landing .project-details-left-side h1 span {
+    font-size: 34px;
+  }
+  .landing .project-details-left-side .share-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .landing .project-details-left-side .share-button a:nth-child(1) {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #2D2C2B;
+    font-family: NotoSansBold;
+    padding-right: 15px;
+  }
+  .landing .project-details-left-side .project-features .project-features-body {
+    grid-gap: 15px 30px;
+  }
+  .landing .project-details-left-side .project-features .project-features-header h2 {
+    font-size: 18px;
+  }
+  .landing .project-details-right-side .total-available-apartments .total-available-apartments-body h2 {
+    white-space: nowrap;
+  }
+  .landing .project-details-right-side .contact .contact-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .landing .project-details-right-side .contact .contact-container .resp-wrapper {
+    width: 100%;
+  }
+  .landing .project-details-right-side .contact .contact-container .newsletter {
+    margin: 1rem;
+    width: 100%;
+  }
+  .landing .project-details-right-side .contact .contact-container .location .location-info p, .landing .project-details-right-side .contact .contact-container .phone .location-info p, .landing .project-details-right-side .contact .contact-container .phone .phone-info p {
+    white-space: nowrap;
+  }
+  .landing .project-details-right-side .total-available-apartments .total-available-apartments-body h2 {
+    white-space: normal;
+  }
+  .landing .project-details-right-side .book-call-button {
+    padding: 12px;
+    white-space: nowrap;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .landing .project-details-right-side .total-available-apartments .total-available-apartments-body h2 {
+    white-space: normal;
+  }
+  .landing .project-details-right-side .book-call-button {
+    padding: 12px;
+    white-space: nowrap;
+  }
+  .landing .project-details-left-side {
+    padding: 0;
+  }
+  .landing .project-details-right-side {
+    padding: 0 10px;
+  }
+  .landing .project-details-right-side .bottom-panel {
+    height: 130px;
+  }
+  .landing .project-details-right-side .project-status, .landing .project-details-right-side .total-available-apartments, .landing .project-details-right-side .total-available-apartments {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .landing .project-details-right-side .next-project .next-project-wrapper .next-project-inner-content .next-project-inner-content-wrapper h2 {
+    font-size: 44px;
+  }
+  .landing .project-details-right-side .benefits .benefits-grid {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-rows: (1fr)[3];
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: "busline green-area public-school" "hypermarket metro-station eco-friendly" "kids-playground parking parking";
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .landing .landing-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .landing .project-details-left-side {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-top: 30rem;
+  }
+  .nav .nav-wrapper .logo {
+    width: auto;
+  }
+  .about-project {
+    width: 100%;
+  }
+  .landing .project-details-right-side {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
