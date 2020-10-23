@@ -1165,12 +1165,14 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .wrapper {
+    margin-top: 15rem;
+  }
   .landing .project-details-left-side {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    margin-top: 30rem;
   }
   .nav .nav-wrapper .logo {
     width: auto;
